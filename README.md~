@@ -9,7 +9,7 @@ Data: 04/12/2020
 - Não é necessária nenhuma alteração nos dados dos arquivos de entrada fornecidos. Apenas para evitar o uso de bibliotecas de terceiros, optei por corverter o arquivo Produtos.xlsx para o formato CSV (Produtos.csv). Tal conversão é feita externamente ao programa e encontra-se em "data/Produtos.csv".
 	- Caso houvesse apenas 1 dia para realizar a tarefa, eu optaria por alterações manuais nas informações do arquivo Produtos.csv, deixando-o mais padronizado, e utilizaria um sevidor de banco de dados para agilizar as consultas. Acredito não ser uma boa ideia padronizar o arquivo exemplo.txt pois não seria uma técnica eficiente em produção, já que as mensagens provindas dos usuários necessitariam de padronização manual também.
 - **Execução**: 
-	- `$ git clone https://github.com/rafaelGomesCastro/focus_nfe.git`
+	- `$ git clone `
 	- `$ cd focus_nfe/`
 	- `$ python3 src/main.py`
 
