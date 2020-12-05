@@ -2,9 +2,9 @@
 
 from unidecode import unidecode
 
-file_messages = '../data/exemplo.txt'
-file_dataset  = '../data/Produtos.csv'
-file_result   = '../result/result.csv'
+file_messages = 'data/exemplo.txt'
+file_dataset  = 'data/Produtos.csv'
+file_result   = 'result/result.csv'
 
 
 def clear_string(f_str):
@@ -93,8 +93,6 @@ def read_messages():
     for x in f_str:
         aux += x if type(x) == list else [x]
     f_str = aux[:]
-    #print(f_str)
-    #exit(-1)
 
     # Clear string
     for i in range(len(f_str)):
