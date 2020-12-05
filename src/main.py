@@ -241,5 +241,7 @@ def main():
 
     generate_spreadsheet(matches)
 
+    print("Resultado salvo em "+file_result)
+
 if (__name__ == '__main__'):
     main()
