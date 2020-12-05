@@ -10,7 +10,7 @@ Data: 04/12/2020
 	- Caso houvesse apenas 1 dia para realizar a tarefa, eu optaria por alterações manuais nas informações do arquivo Produtos.csv, deixando-o mais padronizado, e utilizaria um sevidor de banco de dados para agilizar as consultas. Acredito não ser uma boa ideia padronizar o arquivo exemplo.txt pois não seria uma técnica eficiente em produção, já que as mensagens provindas dos usuários necessitariam de padronização manual também.
 - **Execução**: 
 	- `$ git clone https://github.com/rafaelGomesCastro/focus_nfe.git`
-	- `$ cd focus_nfe/`
+	- `$ cd focus_nfe-main/`
 	- `$ python3 src/main.py`
 
 ### Diretórios e arquivos
